@@ -80,7 +80,7 @@ color: rgb(85, 68, 68);
 }
 
 ul li.link-header a:hover{
-    background-color: rgb(212, 178, 122);
+    background-color: rgb(47, 118, 7);
     padding:5px;
     color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -102,7 +102,7 @@ height:  90px;
 }
 
 .footer-basic .social > a {
-    font-size: 18px;
+    font-size: 20px;
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -147,7 +147,7 @@ background-blend-mode: darken;
 
 .header__texto{
     text-align: center;
-    color: #f7952cfe;
+    color: #e6ffc2fe;
     height: 100%;
     align-items: center;
     display: table-cell;
@@ -374,7 +374,7 @@ h2{
     text-align: center;
     font-size:1.7rem;
     
-    color: #e0e0e0fe;
+    color: #fff0e2fe;
 }
 
 .d-flex{
@@ -382,6 +382,7 @@ h2{
 }
 .centrar-texto{
     text-align: center;
+    color:#622500;
 }
 
 .contenedor{
@@ -419,4 +420,20 @@ h2{
         margin-bottom: 30px;
         margin-right: 40px;
     }
+/*Seccion Contacto*/
+
+    .formulario {
+        background-color: rgb(255, 255, 255);
+        margin: -50px auto 0px;
+        width: 95%;
+       
+    }
+
+    .contacto-bg {
+        background-image: url(../images/contacto-imagen.jpg);
+        height: 300px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
   }
